@@ -1,0 +1,48 @@
+.header__navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .site-logo 
+    {
+        width: 236px;
+    }
+
+    .nav-ul 
+    {
+        display: flex;
+        justify-content: space-between;
+
+        width: 283px;
+
+        .nav-a 
+        {
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0.923077px;
+            text-transform: uppercase;
+            font-weight: 600;
+
+            color: #83888F;
+
+            &:hover
+            {
+                color: #000;
+            }
+        }
+    }
+
+    .btn 
+    {
+        background: transparent;
+        border: none;
+        display: none;
+        cursor: pointer;
+    }
+
+    .img-cross
+    {
+        display: none;
+    }
+}
